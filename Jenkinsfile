@@ -23,6 +23,7 @@ pipeline {
     stage('stg3') {
       steps {
         sh 'ls'
+        sh 'uname -a'
       }
     }
   }
